@@ -14,6 +14,21 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: var(--theme-black);
 }
+.hover-img:hover img {
+  scale: 1.05;
+}
+.hover-img {
+  overflow: hidden;
+  cursor: pointer;
+}
+.img-to-hover {
+  height: 100%;
+  transition: all 1.1s;
+  -webkit-transition: all 1.1s;
+  -moz-transition: all 1.1s;
+  -ms-transition: all 1.1s;
+  -o-transition: all 1.1s;
+}
 .banner {
   width: 100%;
   height: 100vh;
@@ -167,7 +182,7 @@ a {
   width: 140px;
   border-radius: 50px;
   transition-duration: 0.3s;
-  background-color:var(--grey-txt);
+  background-color: var(--grey-txt);
   align-items: center;
 }
 
@@ -233,11 +248,10 @@ a {
   .section-right {
     padding-left: 130px;
     padding-top: 16vh;
-    img {
+    .class-img {
       height: 470px;
       border-radius: 22px;
     }
-
     .circle2 {
       height: 62px;
       width: 62px;
@@ -261,7 +275,7 @@ a {
       background-color: var(--theme-black);
       border-radius: 0 40px 0 0;
       position: absolute;
-      translate: 0px -85px;
+      translate: 0px -84px;
       line-height: 55px;
     }
     .circle-out::before {
