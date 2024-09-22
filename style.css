@@ -98,7 +98,7 @@ nav {
   top: 20vh;
   left: 10vw;
   & h1 {
-    font-size: 90px;
+    font-size: 5.8rem;
     font-weight: 700;
   }
   &::before {
@@ -343,7 +343,8 @@ a {
     translate: 60px -22px;
   }
   .floaty {
-    width: 77vw;
+    /* width: 77vw; */
+    padding-inline: 20px;
     height: 14vh;
     border-radius: 50px;
     display: flex;
@@ -359,6 +360,7 @@ a {
         padding-bottom: 1.5vw;
         padding-left: 2vw;
         padding-right: 3.5vw;
+        cursor: pointer;
         .chevron {
           color: var(--theme-color);
           position: absolute;
@@ -671,6 +673,7 @@ h2::before {
     ion-icon {
       font-size: 40px;
       translate: 25px 25px;
+      cursor: pointer;
     }
   }
 }
@@ -1028,6 +1031,7 @@ h2::before {
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
         ion-icon {
           font-size: 25px;
         }
@@ -1114,6 +1118,7 @@ h2::before {
       border-bottom: 1px solid var(--theme-color);
       color: white;
       padding-bottom: 3px;
+      cursor: pointer;
     }
   }
 }
