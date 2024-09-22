@@ -1025,9 +1025,11 @@ h2::before {
         height: 50px;
         border-radius: 50%;
         border: 1px solid var(--theme-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         ion-icon {
           font-size: 25px;
-          translate: 10px 10px;
         }
       }
       .circ:hover {
