@@ -182,7 +182,7 @@ a {
   width: 140px;
   border-radius: 50px;
   transition-duration: 0.3s;
-  background-color: var(--grey-txt);
+  background-color: var(--theme-black);
   align-items: center;
 }
 
